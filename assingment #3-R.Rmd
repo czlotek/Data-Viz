@@ -1,0 +1,40 @@
+---
+output: pdf_document
+---
+Assignment for mtcars:
+summary:
+```{r}
+summary(mtcars)
+```
+
+Quantitles
+```{r}
+quantile(mtcars$mpg)
+```
+```{r}
+quantile(mtcars$cyl, c(.30, .60, .90))
+```
+
+Attributes:
+```{r}
+attributes(mtcars)
+```
+
+Histogram:
+```{r}
+hist(mtcars$mpg)
+```
+Plot:
+```{r}
+plot(density(mtcars$mpg))
+```
+
+Boxplot:
+```{r}
+boxplot(mtcars)
+```
+
+Pairs:
+```{r}
+pairs(mtcars)
+```
